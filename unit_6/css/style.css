@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Oswald');
+
+body {
+	background-color: #F5F5F5;
+	font-family: 'Roboto', serif;
+}
+
+nav {
+	background-color: #F5F5F5;
+	border-bottom: 1px black solid;
+    padding: 5px;
+    float: right;
+    width: 100%;
+}
+
+a {
+	font-size: 1.1em;
+	color: #3C3C3C;
+	padding: 20px;
+	text-decoration: none;
+}
+
+#donate {
+	background-color: #FCDA6A;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	border: 4px black solid;
+	padding: 8px;
+	margin: 6px;
+	display: inline-block;
+	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+header {
+	text-align: center;
+	background: #C8C8C8;
+    padding: 20px;
+    background-image: url("images/diverse.jpeg");
+}
+
+
+}
+
+h1 {
+	color: #97B2D8;
+	font-family: 'Oswald', sans-serif;
+}
+
+#mission {
+	background-color: #3C3C3C;
+}
+
+#mleft {
+	color: #FCDA6A;
+	padding: 20px;
+    float: left;
+    width: 10%;
+    font-family: 'Oswald', sans-serif;
+	font-size: 1.8em;
+}
+
+#mright {
+    color: #F5F5F5;
+	padding: 20px;
+    float: right;   
+    width: 80%;
+    font-size: 1.2em;
+}
+
+#how, #send {
+	background-color: grey;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.7em;
+	border: 4px black solid;
+	padding: 10px;
+	margin: 8px;
+	display: inline-block;
+}
+
+#send {
+	background-color: red;
+}
+
+h3 {
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+
+p { 
+	color: #2B2B2B;
+	font-family: 'Roboto', serif;
+}
+
+#left {
+	background-color: #F5F5F5;
+	padding: 20px;
+	float: left;
+	width: 46%;
+}
+
+ol {
+	font-size: 1.4em;
+}
+
+#right {
+	background-color: #C8C8C8;
+	padding: 20px;
+	float: right;
+	width: 46%;
+}
+
+#individual {
+	padding: 20px;
+	float: left;
+	width: 40%;
+}
+
+#groups {
+	padding: 20px;
+	float: right;
+	width: 40%;
+}
+
+footer {
+	background-color: #3C3C3C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#email {
+	color: white;
+}
+
+#contact {
+	color: #FCDA6A;
+}
