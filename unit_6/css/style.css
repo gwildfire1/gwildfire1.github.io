@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Oswald');
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #F5F5F5;
 	font-family: 'Roboto', serif;
@@ -8,15 +8,15 @@ body {
 nav {
 	background-color: #F5F5F5;
 	border-bottom: 1px black solid;
-    padding: 5px;
-    float: right;
-    width: 100%;
+	padding: 5px;
+	float: right;
 }
 
-a {
-	font-size: 1.1em;
+nav a {
+	font-size: 1.25em;
 	color: #3C3C3C;
-	padding: 20px;
+	display:inline-block;
+	padding: 1em;
 	text-decoration: none;
 }
 
@@ -24,12 +24,9 @@ a {
 	background-color: #FCDA6A;
 	color: white;
 	font-family: 'Oswald', sans-serif;
-	font-size: 1.2em;
 	border: 4px black solid;
 	padding: 8px;
 	margin: 6px;
-	display: inline-block;
-	float: right;
 }
 
 .clearfix:after {
@@ -103,36 +100,30 @@ p {
 	font-family: 'Roboto', serif;
 }
 
-#left {
+#two_column section {
 	background-color: #F5F5F5;
-	padding: 20px;
+	padding: 4em;
 	float: left;
-	width: 46%;
+	width: 50%;
 }
-
 ol {
-	font-size: 1.4em;
+	font-size: 1.5em;
+	padding-left:1em;
 }
-
-#right {
+li {
+	margin-top:.5em;
+}
+#two_column #right {
 	background-color: #C8C8C8;
-	padding: 20px;
-	float: right;
-	width: 46%;
 }
-
-#individual {
-	padding: 20px;
+#right div {
+	padding: 2em;
 	float: left;
-	width: 40%;
+	width: 50%;
 }
-
-#groups {
-	padding: 20px;
-	float: right;
-	width: 40%;
+#right img {
+	width:100%;
 }
-
 footer {
 	background-color: #3C3C3C;
 	border: 1px black solid;
@@ -145,4 +136,18 @@ footer {
 
 #contact {
 	color: #FCDA6A;
+}
+#splash {
+	background:url(../images/Diverse.jpeg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:80vh;
+	padding:15em;
+	text-align:center;
+}
+.logo {
+	font-size:1.5em;
+	float:left;
+	margin-top:1em;
+	text-transform:uppercase;
 }
