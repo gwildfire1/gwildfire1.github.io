@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Oswald');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #FDFFFC;
+	font-family: 'Roboto', serif;
+}
+
+nav {
+	background-color: #FDFFFC;
+	border-bottom: 1px black solid;
+	padding: 5px;
+	float: right;
+}
+
+nav a {
+	font-size: 1.25em;
+	color: #235789;
+	display:inline-block;
+	padding: 1em;
+	text-decoration: none;
+}
+
+#donate {
+	background-color: #C1292E;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	border: 4px black solid;
+	padding: 8px;
+	margin: 6px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+header {
+	text-align: left;
+	background: #FDFFFC;
+    padding: 5px;
+}
+
+h1 {
+	color: #FDFFFC;
+	font-family: 'Roboto', sans-serif;
+	font-size: 4.25em;
+	width:50%;
+}
+
+h2 {
+	color: #F3DE2C;
+	font-size:3em;
+	margin-top: 1.25em;
+}
+
+
+#mission {
+	background-color: #235789;
+}
+
+#mleft {
+	color: #F3DE2C;
+	padding: 20px;
+    float: left;
+    margin-left: 40px;
+    width: 10%;
+    font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+
+#mright {
+    color: #FDFFFC;
+	padding: 20px;
+    float: right;   
+    width: 80%;
+    font-size: 1.5em;
+}
+
+#how, #send {
+	background-color: grey;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.75em;
+	border: 4px black solid;
+	padding: 10px;
+	margin: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+#send {
+	background-color: #C1292E;
+}
+
+h3 {
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+
+p { 
+	color: #2B2B2B;
+	font-family: 'Roboto', serif;
+}
+
+#two_column section {
+	background-color: #FDFFFC;
+	padding: 4em;
+	float: left;
+	width: 50%;
+}
+ol {
+	font-size: 1.5em;
+	padding-left:1em;
+}
+li {
+	margin-top:.5em;
+}
+#two_column #right {
+	background-color: #51DBD2;
+}
+#right div {
+	padding: 2em;
+	float: left;
+	width: 50%;
+}
+#right img {
+	width:100%;
+}
+footer {
+	background-color: #3C3C3C;
+    padding: 50px;
+}
+
+#email {
+	color: white;
+}
+
+#contact {
+	color: #FCDA6A;
+}
+
+.links {
+	color: #FCDA6A;
+	font-size: 1em;
+	padding: 1em;
+	float: right;
+	text-decoration: none;
+}
+
+.link-heading {
+	text-transform:uppercase;
+}
+ul {
+	color: #51DBD2;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+#splash {
+	background:url(../images/Diverse.jpeg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:80vh;
+	padding:5em;
+}
+
+.logo {
+	font-size:1.5em;
+	float:left;
+	margin-top:1em;
+	text-transform:uppercase;
+}
+
