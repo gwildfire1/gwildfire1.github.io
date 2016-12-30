@@ -60,22 +60,21 @@ h2 {
 
 #mission {
 	background-color: #235789;
+	padding: 4em 0;
 }
 
 #mleft {
 	color: #F3DE2C;
-	padding: 20px;
-    float: left;
-    margin-left: 40px;
-    width: 10%;
-    font-family: 'Oswald', sans-serif;
+	float: left;
+	margin-left: 40px;
+	width: 10%;
+	font-family: 'Oswald', sans-serif;
 	font-size: 2em;
 }
 
 #mright {
     color: #FDFFFC;
-	padding: 20px;
-    float: right;   
+    float: right;
     width: 80%;
     font-size: 1.5em;
 }
@@ -133,11 +132,12 @@ li {
 }
 footer {
 	background-color: #3C3C3C;
-    padding: 50px;
+	padding: 50px;
 }
 
 #email {
 	color: white;
+	float: left;
 }
 
 #contact {
